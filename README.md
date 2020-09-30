@@ -6,7 +6,7 @@ https://cristianocaon.github.io
 
 ## Assets
 
-* 3D Models
+* Imported 3D Models
 
   1. Xbox: https://sketchfab.com/3d-models/xbox-one-slim-f290a13fac3d4db883ffdd6ac00bdcc6
 
@@ -27,6 +27,14 @@ https://cristianocaon.github.io
   9. Bed: https://free3d.com/3d-model/full-size-bed-with-white-sheets-black-v1--434476.html
 
   10. Headset: https://free3d.com/3d-model/razer-kraken-v2-headphones-219.html
+  
+* Created 3D models
+  
+  1. Ceiling Fan
+  
+  2. Mini Table
+  
+  3. Booshelf
 
 * Textures
 
