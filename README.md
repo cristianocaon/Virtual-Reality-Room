@@ -32,7 +32,7 @@ https://cristianocaon.github.io
 
   1. Ceiling: https://i.pinimg.com/originals/90/50/9a/90509a40417daff38b573f9250028315.jpg
 
-  2. Floor: https://unblast.com/wp-content/uploads/2020/04/Seamless-Wood-Texture-2.jpg
+  2. Floor: https://i.pinimg.com/originals/a7/b1/a9/a7b1a92897cd64f40f1c173619af995f.jpg
 
   3. Wall: https://i.pinimg.com/originals/90/50/9a/90509a40417daff38b573f9250028315.jpg
 
