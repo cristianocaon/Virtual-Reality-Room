@@ -35,6 +35,8 @@ https://cristianocaon.github.io
   2. Mini Table
   
   3. Booshelf
+  
+  4. Hearth
 
 * Textures
 
@@ -49,5 +51,7 @@ https://cristianocaon.github.io
   5. Mini Table: https://besthqwallpapers.com/Uploads/5-8-2019/100501/thumb2-light-wood-texture-wood-light-background-texture-of-natural-materials-wood.jpg
   
   6. Bookshelf: https://textures.world/wp-content/uploads/2018/10/Dark-Wood-Seamless-Background-Texture-2-copy.jpg
+  
+  7. Hearth: https://image.made-in-china.com/2f0j00TzZfqGmsAcoS/High-Quality-UV-Resistant-Loose-Lay-Vinyl-Flooring-Wood-Texture.jpg | https://i.pinimg.com/originals/47/1f/8f/471f8f69c032c6ac94f555120a07d47c.jpg | https://snappygoat.com/o/1e9c43ac1fb99d29c7dfa34a1563f122d63dc2aa/logs1.jpg
 
 ## Demo Pictures
