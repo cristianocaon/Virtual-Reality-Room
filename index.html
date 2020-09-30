@@ -41,6 +41,15 @@
             <!-- Chair -->
             <a-asset-item id="chair" src="assets/Chair/scene.gltf"></a-asset-item>
 
+            <!-- Basketball -->
+            <a-asset-item id="basketball" src="assets/Basketball/scene.gltf"></a-asset-item>
+
+            <!-- Basket -->
+            <a-asset-item id="basket" src="assets/Basket/scene.gltf"></a-asset-item>
+
+            <!-- TTU img -->
+            <img id="ttu_logo" src="images/welcome.png">
+
             <!-- Overall Textures -->
             <img id="roof" src="./images/unnamed.jpg">
             <img id="wall" src="./images/wall-texture-46.jpg">
@@ -50,6 +59,7 @@
             <img id="marble" src="./images/marble_texture.jpg">
             <img id="wood_chair" src="./images/wood_chair.jpg">
         </a-assets>
+
         <!-- Sky -->
         <a-sky color="#ECECEC"></a-sky>
 
@@ -61,6 +71,41 @@
                     position="0 0 -0.75"></a-entity>
             </a-camera>
         </a-entity>
+
+        <!-- Ambient Light -->
+        <a-entity light="type: ambient; intensity: 0.5"></a-entity>
+
+        <!-- Light -->
+        <a-entity light="type: point; intensity: 1; distance: 35" position="0 8 0"></a-entity>
+
+        <!-- <a-light type="point" position="0 8 0" intensity="0.8" distance="15"></a-light> -->
+
+        <!-- TTU Logo -->
+        <a-image src="#ttu_logo" position="-19.2 5.5 0" rotation="0 90 0" scale="9 9 9"></a-image>
+
+        <!-- Ceiling Fan -->
+        <a-sphere radius="0.5" color="#222222" position="0 12 0"></a-sphere>
+        <a-cylinder height="2" radius="0.2" position="0 11 0" color="#545863"></a-cylinder>
+        <a-cylinder height="0.5" radius="1" color="#222222" position="0 10 0"></a-cylinder>
+        <a-box width="8" height="0.15" depth="0.7" position="0 10 0" rotation="10 0 0" color="#545863">
+            <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear"></a-animation>
+        </a-box>
+        <a-box width="8" height="0.15" depth="0.7" position="0 10 0" rotation="10 90 0" color="#545863">
+            <a-animation attribute="rotation" to="0 450 0" repeat="indefinite" dur="5000" easing="linear"></a-animation>
+        </a-box>
+
+        <!-- Basket -->
+        <!-- <a-gltf-model src="#basket" position="-12 7 23" scale="0.01 0.01 0.01" rotation="0 90 0"></a-gltf-model> -->
+
+        <!-- Basketball -->
+        <!-- <a-gltf-model src="#basketball" position="-11 2 13" scale="0.5 0.5 0.5" rotation="0 0 90">
+            <a-animation attribute="position" from="-11 2 13" to="-11 9 23" direction="alternate" repeat="indefinite"
+                dur="2000" easing="ease-out">
+                <a-animation attribute="position" from="-11 9 23" to="-11 3 23" direction="alternate"
+                    repeat="indefinite" dur="2000" easing="ease-out">
+                </a-animation>
+            </a-animation>
+        </a-gltf-model> -->
 
         <!-- Chair -->
         <a-gltf-model src="#chair" position="13.5 -0.2 5" scale="0.008 0.008 0.008" rotation="0 125 0"></a-gltf-model>
