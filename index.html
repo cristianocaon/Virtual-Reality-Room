@@ -51,12 +51,10 @@
             <img id="ttu_logo" src="images/welcome.png">
 
             <!-- Overall Textures -->
-            <img id="roof" src="./images/unnamed.jpg">
+            <img id="roof" src="./images/wall-texture-46.jpg">
             <img id="wall" src="./images/wall-texture-46.jpg">
-            <img id="floor" src="./images/Parquet-Flooring-Textures-Backgrounds-Floor-Wood-W-0327.jpg">
+            <img id="floor" src="./images/floor_texture.jpg">
             <img id="beams" src="./images/beam_texture.jfif">
-            <img id="brick" src="./images/brick_texture.jpg">
-            <img id="marble" src="./images/marble_texture.jpg">
             <img id="wood_chair" src="./images/wood_chair.jpg">
         </a-assets>
 
@@ -73,10 +71,10 @@
         </a-entity>
 
         <!-- Ambient Light -->
-        <a-entity light="type: ambient; intensity: 0.5"></a-entity>
+        <a-entity light="type: ambient; intensity: 0.4"></a-entity>
 
         <!-- Light -->
-        <a-entity light="type: point; intensity: 1; distance: 35" position="0 8 0"></a-entity>
+        <a-entity light="type: point; intensity: 0.8; distance: 35" position="0 8 0"></a-entity>
 
         <!-- <a-light type="point" position="0 8 0" intensity="0.8" distance="15"></a-light> -->
 
@@ -153,7 +151,7 @@ src: #roof; repeat: 5 12"></a-entity>
 
         <!-- Floor -->
         <a-entity static-body geometry="primitive: box; depth: 50; height: 0.1; width: 40" position="0 -0.5 0" material="shader: flat; side: double; opacity: 1;
-src: #floor; repeat: 5 1"></a-entity>
+src: #floor; repeat: 10 10"></a-entity>
 
         <!-- Walls  -->
         <a-entity static-body geometry="primitive: box; depth: 1; height: 14; width: 50" position="-20 6.5 0"
