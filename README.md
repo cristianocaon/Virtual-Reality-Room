@@ -18,6 +18,12 @@ Modern Sofa: https://sketchfab.com/3d-models/modern-sofa-ac92f6e97eaa43c4ad6cb8f
 
 LED TV: https://sketchfab.com/3d-models/led-tv-014e75456b4e465b9cecd1b136a0312b
 
+Xbox Controller:
+
+Bed:
+
+Headset: 
+
 ### Textures
 
 Ceiling:
