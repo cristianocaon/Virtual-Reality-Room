@@ -2,6 +2,8 @@
 
 ## Demo Link
 
+https://cristianocaon.github.io
+
 ## Assets
 
 ### 3D Models
@@ -18,20 +20,22 @@ Modern Sofa: https://sketchfab.com/3d-models/modern-sofa-ac92f6e97eaa43c4ad6cb8f
 
 LED TV: https://sketchfab.com/3d-models/led-tv-014e75456b4e465b9cecd1b136a0312b
 
-Xbox Controller:
+Table: https://sketchfab.com/3d-models/wooden-table-0dc1c7d6cbab4d74bef7c4f82abf2caf
 
-Bed:
+Xbox Controller: https://sketchfab.com/models/popular
 
-Headset: 
+Bed: https://free3d.com/3d-model/full-size-bed-with-white-sheets-black-v1--434476.html
+
+Headset: https://free3d.com/3d-model/razer-kraken-v2-headphones-219.html
 
 ### Textures
 
-Ceiling:
+Ceiling: https://i.pinimg.com/originals/90/50/9a/90509a40417daff38b573f9250028315.jpg
 
-Floor:
+Floor: https://unblast.com/wp-content/uploads/2020/04/Seamless-Wood-Texture-2.jpg
 
 Wall: https://i.pinimg.com/originals/90/50/9a/90509a40417daff38b573f9250028315.jpg
 
-Trim/Beams: 
+Trim/Beams: https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
 
 ## Demo Pictures
