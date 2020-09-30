@@ -42,10 +42,14 @@
             <a-asset-item id="chair" src="assets/Chair/scene.gltf"></a-asset-item>
 
             <!-- Basketball -->
-            <a-asset-item id="basketball" src="assets/Basketball/scene.gltf"></a-asset-item>
+            <!-- <a-asset-item id="basketball" src="assets/Basketball/scene.gltf"></a-asset-item> -->
 
             <!-- Basket -->
-            <a-asset-item id="basket" src="assets/Basket/scene.gltf"></a-asset-item>
+            <!-- <a-asset-item id="basket" src="assets/Basket/scene.gltf"></a-asset-item> -->
+
+            <!-- Mini Table -->
+            <a-asset-item id="mini_table" src="assets/3D models/Mini Table/mini_table.gltf"></a-asset-item>
+
 
             <!-- TTU img -->
             <img id="ttu_logo" src="images/welcome.png">
@@ -76,7 +80,8 @@
         <!-- Light -->
         <a-entity light="type: point; intensity: 0.8; distance: 35" position="0 8 0"></a-entity>
 
-        <!-- <a-light type="point" position="0 8 0" intensity="0.8" distance="15"></a-light> -->
+        <!-- Mini Table -->
+        <a-gltf-model src="#mini_table" position="9 -2 -14" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
 
         <!-- TTU Logo -->
         <a-image src="#ttu_logo" position="-19.2 5.5 0" rotation="0 90 0" scale="9 9 9"></a-image>
@@ -112,10 +117,10 @@
         <a-gltf-model src="#pc" position="16 2 5" scale="1 1 1" rotation="0 -90 0"></a-gltf-model>
 
         <!-- Rug -->
-        <a-gltf-model src="#rug" position="10 -0.1 -14" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
+        <a-gltf-model src="#rug" position="9 -0.1 -14" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
 
         <!-- Sofa -->
-        <a-gltf-model src="#sofa" position="2 1 -14" scale="6 6 6" rotation="0 90 0"></a-gltf-model>
+        <a-gltf-model src="#sofa" position="0 1 -14" scale="6 6 6" rotation="0 90 0"></a-gltf-model>
 
         <!-- Xbox -->
         <a-gltf-model src="#xbox" position="16 2.6 -17.5" scale="6 6 6" rotation="0 0 0"></a-gltf-model>
