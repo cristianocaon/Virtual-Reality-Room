@@ -41,15 +41,11 @@
             <!-- Chair -->
             <a-asset-item id="chair" src="assets/Chair/scene.gltf"></a-asset-item>
 
-            <!-- Basketball -->
-            <!-- <a-asset-item id="basketball" src="assets/Basketball/scene.gltf"></a-asset-item> -->
-
-            <!-- Basket -->
-            <!-- <a-asset-item id="basket" src="assets/Basket/scene.gltf"></a-asset-item> -->
-
             <!-- Mini Table -->
             <a-asset-item id="mini_table" src="assets/3D models/Mini Table/mini_table.gltf"></a-asset-item>
 
+            <!-- Bookshelf -->
+            <a-asset-item id="bookshelf" src="assets/3D models/Bookshelf/bookshelf.gltf"></a-asset-item>
 
             <!-- TTU img -->
             <img id="ttu_logo" src="images/welcome.png">
@@ -66,7 +62,7 @@
         <a-sky color="#ECECEC"></a-sky>
 
         <!-- Camera -->
-        <a-entity position="0 1.8 0">
+        <a-entity position="-4 1.8 4" rotation="0 -75 0">
             <a-camera universal-controls>
                 <a-entity raycaster="far: 150; objects: .intersectable" cursor geometry="primitive: ring; radiusOuter: 0.015;
                               radiusInner: 0.01; segmentsTheta: 32" material="color: #283644; shader: flat"
@@ -75,16 +71,16 @@
         </a-entity>
 
         <!-- Ambient Light -->
-        <a-entity light="type: ambient; intensity: 0.4"></a-entity>
+        <!-- <a-entity light="type: ambient; intensity: 0.4"></a-entity> -->
 
         <!-- Light -->
-        <a-entity light="type: point; intensity: 0.8; distance: 35" position="0 8 0"></a-entity>
+        <!-- <a-entity light="type: point; intensity: 0.8; distance: 35" position="0 8 0"></a-entity> -->
 
         <!-- Mini Table -->
         <a-gltf-model src="#mini_table" position="9 -2 -14" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
 
         <!-- TTU Logo -->
-        <a-image src="#ttu_logo" position="-19.2 5.5 0" rotation="0 90 0" scale="9 9 9"></a-image>
+        <a-image src="#ttu_logo" position="9.5 5.5 -24" rotation="0 0 0" scale="8 8 8"></a-image>
 
         <!-- Ceiling Fan -->
         <a-sphere radius="0.5" color="#222222" position="0 12 0"></a-sphere>
@@ -97,24 +93,14 @@
             <a-animation attribute="rotation" to="0 450 0" repeat="indefinite" dur="5000" easing="linear"></a-animation>
         </a-box>
 
-        <!-- Basket -->
-        <!-- <a-gltf-model src="#basket" position="-12 7 23" scale="0.01 0.01 0.01" rotation="0 90 0"></a-gltf-model> -->
-
-        <!-- Basketball -->
-        <!-- <a-gltf-model src="#basketball" position="-11 2 13" scale="0.5 0.5 0.5" rotation="0 0 90">
-            <a-animation attribute="position" from="-11 2 13" to="-11 9 23" direction="alternate" repeat="indefinite"
-                dur="2000" easing="ease-out">
-                <a-animation attribute="position" from="-11 9 23" to="-11 3 23" direction="alternate"
-                    repeat="indefinite" dur="2000" easing="ease-out">
-                </a-animation>
-            </a-animation>
-        </a-gltf-model> -->
+        <!-- Bookshelf -->
+        <a-gltf-model src="#bookshelf" position="19.3 -0.2 -2" scale="0.8 0.8 0.8" rotation="0 180 0"></a-gltf-model>
 
         <!-- Chair -->
-        <a-gltf-model src="#chair" position="13.5 -0.2 5" scale="0.008 0.008 0.008" rotation="0 125 0"></a-gltf-model>
+        <a-gltf-model src="#chair" position="13.5 -0.2 8" scale="0.008 0.008 0.008" rotation="0 125 0"></a-gltf-model>
 
         <!-- PC -->
-        <a-gltf-model src="#pc" position="16 2 5" scale="1 1 1" rotation="0 -90 0"></a-gltf-model>
+        <a-gltf-model src="#pc" position="16 2 8" scale="1 1 1" rotation="0 -90 0"></a-gltf-model>
 
         <!-- Rug -->
         <a-gltf-model src="#rug" position="9 -0.1 -14" scale="1 1 1" rotation="0 0 0"></a-gltf-model>
@@ -137,7 +123,8 @@
         </a-entity>
 
         <!-- Bed -->
-        <a-entity obj-model="obj: #bed-o; mtl: #bed-m" position="-12 2.1 -18" scale="0.05 0.05 0.05" rotation="-90 0 0">
+        <a-entity obj-model="obj: #bed-o; mtl: #bed-m" position="13 2.1 16.5" scale="0.05 0.05 0.05"
+            rotation="-90 -90 0">
         </a-entity>
 
         <!-- Controller 1 -->
