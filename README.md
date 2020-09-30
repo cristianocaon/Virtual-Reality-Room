@@ -37,5 +37,9 @@ https://cristianocaon.github.io
   3. Wall: https://i.pinimg.com/originals/90/50/9a/90509a40417daff38b573f9250028315.jpg
 
   4. Trim/Beams: https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+  
+  5. Mini Table: https://besthqwallpapers.com/Uploads/5-8-2019/100501/thumb2-light-wood-texture-wood-light-background-texture-of-natural-materials-wood.jpg
+  
+  6. Bookshelf: https://textures.world/wp-content/uploads/2018/10/Dark-Wood-Seamless-Background-Texture-2-copy.jpg
 
 ## Demo Pictures
