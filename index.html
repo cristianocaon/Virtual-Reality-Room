@@ -53,7 +53,7 @@
             <a-asset-item id="hearth" src="assets/3D models/Hearth/hearth.gltf"></a-asset-item>
 
             <!-- Drawer -->
-            <a-asset-item id="drawer" src="assets/3D Models/Drawer/drawer.gltf"></a-asset-item>
+            <!-- <a-asset-item id="drawer" src="assets/3D Models/Drawer/drawer.gltf"></a-asset-item> -->
 
             <!-- Covid -->
             <a-asset-item id="covid" src="assets/Covid/scene.gltf"></a-asset-item>
@@ -66,7 +66,6 @@
             <img id="wall" src="./images/wall-texture-46.jpg">
             <img id="floor" src="./images/floor_texture.jpg">
             <img id="beams" src="./images/beam_texture.jfif">
-            <img id="wood_chair" src="./images/wood_chair.jpg">
         </a-assets>
 
         <!-- Sky -->
@@ -86,20 +85,6 @@
         <!-- </a-camera>
         </a-entity> -->
 
-        <!-- <a-entity camera>
-            <a-entity cursor="fuse: true; fuseTimeout: 500" position="0 0 -1"
-                geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03" material="color: black; shader: flat">
-            </a-entity>
-        </a-entity> -->
-
-        <!-- <a-entity id="box" cursor-listener geometry="primitive: box" material="color: blue"></a-entity> -->
-
-        <!-- Camera + Cursor -->
-        <!-- <a-entity camera>
-            <a-entity cursor="fuse: true; fuseTimeout: 500" position="0 2.2 -1"
-                geometry="primitive: ring; radiusInner: 0.02; radiusOuter: 0.03" material="color: black; shader: flat">
-            </a-entity>
-        </a-entity> -->
 
         <!-- Ambient Light -->
         <a-entity light="type: ambient; intensity: 0.4"></a-entity>
@@ -138,13 +123,12 @@
         </a-entity>
 
         <!-- Drawer -->
-        <a-gltf-model src="#drawer" position="-18 -2 -5" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
+        <!-- <a-gltf-model src="#drawer" position="-18 -2 -5" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model> -->
 
         <!-- Button -->
         <a-box position="-19.5 3 5" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>
         <a-cylinder id="covidBtn" height="0.15" radius="0.25" color="#00ff00" position="-19.2 3 5" rotation="0 0 90">
         </a-cylinder>
-        <!-- event-set__tarcol="_event: click; _target: #covid_group; material.visible: true" -->
 
         <!-- Hearth -->
         <a-gltf-model src="#hearth" position="-12.5 -0.3 -22" scale="0.8 0.8 0.8" rotation="0 -90 0"></a-gltf-model>
