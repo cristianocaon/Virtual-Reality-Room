@@ -50,6 +50,9 @@
             <!-- Hearth -->
             <a-asset-item id="hearth" src="assets/3D models/Hearth/hearth.gltf"></a-asset-item>
 
+            <!-- Red Button -->
+            <a-asset-item id="redBtn" src="assets/Red Button/scene.gltf"></a-asset-item>
+
             <!-- TTU img -->
             <img id="ttu_logo" src="images/welcome.png">
 
@@ -96,6 +99,9 @@
         <a-box width="8" height="0.15" depth="0.7" position="0 10 0" rotation="10 90 0" color="#545863">
             <a-animation attribute="rotation" to="0 450 0" repeat="indefinite" dur="5000" easing="linear"></a-animation>
         </a-box>
+
+        <!-- Red Button -->
+        <a-gltf-model src="#redBtn" position="-19.2 3 5" scale="0.8 0.8 0.8" rotation="0 0 -90"></a-gltf-model>
 
         <!-- Hearth -->
         <a-gltf-model src="#hearth" position="-12.5 -0.3 -22" scale="0.8 0.8 0.8" rotation="0 -90 0"></a-gltf-model>
