@@ -72,7 +72,7 @@
         <a-sky color="#ECECEC"></a-sky>
 
         <!-- Camera -->
-        <a-camera universal-controls position="-4 2.2 4" rotation="0 -75 0">
+        <a-camera universal-controls position="-4 3.3 4" rotation="0 -75 0">
             <a-cursor position="0 7 5"></a-cursor>
         </a-camera>
 
@@ -103,12 +103,28 @@
         <!-- Covid -->
         <a-entity id="covid_group" visible="false">
             <a-gltf-model src="#covid" position="14 8 8" scale="0.04 0.04 0.04" rotation="0 0 0">
+                <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear">
+                </a-animation>
             </a-gltf-model>
-            <a-gltf-model src="#covid" position="0 5 2" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
-            <a-gltf-model src="#covid" position="6 8 -10" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
+            <a-gltf-model src="#covid" position="0 5 2" scale="0.04 0.04 0.04" rotation="0 0 0">
+                <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear">
+                </a-animation>
+
+            </a-gltf-model>
+            <a-gltf-model src="#covid" position="6 8 -10" scale="0.04 0.04 0.04" rotation="0 0 0">
+                <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear">
+                </a-animation>
+
+            </a-gltf-model>
             <a-gltf-model src="#covid" position="-10 9 -18" scale="0.04 0.04 0.04" rotation="0 0 0">
+                <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear">
+                </a-animation>
+
             </a-gltf-model>
             <a-gltf-model src="#covid" position="-14 7 -10" scale="0.04 0.04 0.04" rotation="0 0 0">
+                <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear">
+                </a-animation>
+
             </a-gltf-model>
         </a-entity>
 
@@ -158,13 +174,13 @@
         </a-entity>
 
         <!-- Controller 1 -->
-        <a-entity obj-model="obj: #controller-o; mtl: #controller-m" position="16 2.8 -12.5" scale="0.07 0.07 0.07"
-            rotation="0 90 0">
+        <a-entity click-drag obj-model="obj: #controller-o; mtl: #controller-m" position="16 2.8 -12.5"
+            scale="0.07 0.07 0.07" rotation="0 90 0">
         </a-entity>
 
         <!-- Controller 2 -->
-        <a-entity obj-model="obj: #controller-o; mtl: #controller-m" position="16 2.8 -14" scale="0.07 0.07 0.07"
-            rotation="0 90 0">
+        <a-entity click-drag obj-model="obj: #controller-o; mtl: #controller-m" position="16 2.8 -14"
+            scale="0.07 0.07 0.07" rotation="0 90 0">
         </a-entity>
 
         <!-- Ceiling -->
