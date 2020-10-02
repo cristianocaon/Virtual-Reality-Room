@@ -62,4 +62,4 @@ https://cristianocaon.github.io
 
 ## Demo Pictures
 
-![Demo 1](demo/demo_picture_1.jpg)
+![Demo 1](https://github.com/cristianocaon/cristianocaon.github.io/blob/main/demo/demo_picture_1.JPG)
