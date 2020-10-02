@@ -27,6 +27,8 @@ https://cristianocaon.github.io
   9. Bed: https://free3d.com/3d-model/full-size-bed-with-white-sheets-black-v1--434476.html
 
   10. Headset: https://free3d.com/3d-model/razer-kraken-v2-headphones-219.html
+
+  11. Covid: https://sketchfab.com/3d-models/coronavirus-covid-19-virus-991102145c294fe4b633faecc23f3799
   
 * Created 3D models
   
