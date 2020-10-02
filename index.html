@@ -126,20 +126,25 @@
         </a-box>
 
         <!-- Covid -->
-        <a-gltf-model src="#covid" position="14 8 8" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
-        <a-gltf-model src="#covid" position="0 5 2" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
-        <a-gltf-model src="#covid" position="6 8 -10" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
-        <a-gltf-model src="#covid" position="-10 9 -18" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
-        <a-gltf-model src="#covid" position="-14 7 -10" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
+        <a-entity id="covid_group" visible="false">
+            <a-gltf-model src="#covid" position="14 8 8" scale="0.04 0.04 0.04" rotation="0 0 0">
+            </a-gltf-model>
+            <a-gltf-model src="#covid" position="0 5 2" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
+            <a-gltf-model src="#covid" position="6 8 -10" scale="0.04 0.04 0.04" rotation="0 0 0"></a-gltf-model>
+            <a-gltf-model src="#covid" position="-10 9 -18" scale="0.04 0.04 0.04" rotation="0 0 0">
+            </a-gltf-model>
+            <a-gltf-model src="#covid" position="-14 7 -10" scale="0.04 0.04 0.04" rotation="0 0 0">
+            </a-gltf-model>
+        </a-entity>
 
         <!-- Drawer -->
         <a-gltf-model src="#drawer" position="-18 -2 -5" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
 
         <!-- Button -->
         <a-box position="-19.5 3 5" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>
-        <a-cylinder height="0.15" radius="0.25" color="#00ff00" position="-19.2 3 5" rotation="0 0 90"
-            event-set__tarcol="_event: click; _target: #covid; material.color: #000000"></a-cylinder>
-
+        <a-cylinder id="covidBtn" height="0.15" radius="0.25" color="#00ff00" position="-19.2 3 5" rotation="0 0 90">
+        </a-cylinder>
+        <!-- event-set__tarcol="_event: click; _target: #covid_group; material.visible: true" -->
 
         <!-- Hearth -->
         <a-gltf-model src="#hearth" position="-12.5 -0.3 -22" scale="0.8 0.8 0.8" rotation="0 -90 0"></a-gltf-model>
@@ -252,6 +257,8 @@ roughness: 1; src: #beams"></a-entity>
             rotation="0 0 90" material="shader: standard;
 roughness: 1; src: #beams"></a-entity>
     </a-scene>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
