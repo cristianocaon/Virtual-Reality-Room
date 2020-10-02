@@ -3,32 +3,32 @@
     {
       "bufferView": 2,
       "componentType": 5126,
-      "count": 360,
+      "count": 569,
       "max": [
-        0.99418997764587402,
-        0.99244701862335205,
+        1,
+        0.7801780104637146,
         1
       ],
       "min": [
-        -0.99418997764587402,
-        -0.99244701862335205,
+        -1,
+        -0.78017699718475342,
         -1
       ],
       "type": "VEC3"
     },
     {
       "bufferView": 2,
-      "byteOffset": 4320,
+      "byteOffset": 6828,
       "componentType": 5126,
-      "count": 360,
+      "count": 569,
       "max": [
-        0.99589961767196655,
-        0.99315923452377319,
+        1,
+        1,
         1
       ],
       "min": [
-        -0.99589961767196655,
-        -0.99315923452377319,
+        -1,
+        -1,
         -1
       ],
       "type": "VEC3"
@@ -36,41 +36,58 @@
     {
       "bufferView": 3,
       "componentType": 5126,
-      "count": 360,
+      "count": 569,
       "max": [
         1,
-        0.16246110200881958,
-        0.89442747831344604,
+        0.84987413883209229,
+        1,
         1
       ],
       "min": [
         -1,
-        -0.68819326162338257,
-        -0.89442700147628784,
+        -0.99715745449066162,
+        -1,
         1
       ],
       "type": "VEC4"
     },
     {
-      "bufferView": 1,
+      "bufferView": 2,
+      "byteOffset": 13656,
       "componentType": 5126,
-      "count": 360,
+      "count": 569,
       "max": [
-        0.95195198059082031,
-        0.99511700868606567
+        1,
+        0.56862747669219971,
+        0.56862747669219971
       ],
       "min": [
-        0.004883000161498785,
-        0.004883000161498785
+        0,
+        0,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 569,
+      "max": [
+        0.97974199056625366,
+        0.99982398748397827
+      ],
+      "min": [
+        0.00017574800585862249,
+        0.00017574800585862249
       ],
       "type": "VEC2"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 1500,
+      "count": 2460,
       "max": [
-        359
+        568
       ],
       "min": [
         0
@@ -80,42 +97,42 @@
   ],
   "asset": {
     "extras": {
-      "author": "Scott VanArsdale (https://sketchfab.com/vanart)",
+      "author": "늑대머리 (https://sketchfab.com/wolfnux)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/models/e3c719662981472f8479031a074bc727",
-      "title": "Basketball"
+      "source": "https://sketchfab.com/models/e7685cccf7364682bc6a7883d0b8c503",
+      "title": "Red Button"
     },
-    "generator": "Sketchfab-3.23.4",
+    "generator": "Sketchfab-3.19.5",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 6000,
+      "byteLength": 9840,
       "byteOffset": 0,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 2880,
-      "byteOffset": 6000,
+      "byteLength": 4552,
+      "byteOffset": 9840,
       "byteStride": 8,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 8640,
-      "byteOffset": 8880,
+      "byteLength": 20484,
+      "byteOffset": 14392,
       "byteStride": 12,
       "name": "floatBufferViews",
       "target": 34962
     },
     {
       "buffer": 0,
-      "byteLength": 5760,
-      "byteOffset": 17520,
+      "byteLength": 9104,
+      "byteOffset": 34876,
       "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
@@ -123,19 +140,19 @@
   ],
   "buffers": [
     {
-      "byteLength": 23280,
+      "byteLength": 43980,
       "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "textures/initialShadingGroup_metallicRoughness.png"
+      "uri": "textures/Material_metallicRoughness.png"
     },
     {
-      "uri": "textures/initialShadingGroup_normal.png"
+      "uri": "textures/Material_normal.jpeg"
     },
     {
-      "uri": "textures/initialShadingGroup_baseColor.jpeg"
+      "uri": "textures/Material_baseColor.jpeg"
     }
   ],
   "materials": [
@@ -146,7 +163,7 @@
         0,
         0
       ],
-      "name": "initialShadingGroup",
+      "name": "Material",
       "normalTexture": {
         "index": 1,
         "scale": 1,
@@ -183,12 +200,13 @@
       "primitives": [
         {
           "attributes": {
+            "COLOR_0": 3,
             "NORMAL": 1,
             "POSITION": 0,
             "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "TEXCOORD_0": 4
           },
-          "indices": 4,
+          "indices": 5,
           "material": 0,
           "mode": 4
         }
@@ -242,7 +260,7 @@
       "children": [
         4
       ],
-      "name": "g"
+      "name": "Cube"
     },
     {
       "mesh": 0,
