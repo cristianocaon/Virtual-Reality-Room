@@ -94,10 +94,14 @@
         <a-cylinder height="0.5" radius="1" color="#222222" position="0 10 0"></a-cylinder>
         <a-cylinder height="0.1" radius="0.75" color="#ffffff" position="0 9.7 0"></a-cylinder>
         <a-box width="8" height="0.15" depth="0.7" position="0 10 0" rotation="10 0 0" color="#545863">
-            <a-animation attribute="rotation" to="0 360 0" repeat="indefinite" dur="5000" easing="linear"></a-animation>
+            <a-animation id="fan1" loop="true" property="rotation" to="0 360 0" repeat="indefinite" dur="5000"
+                easing="linear">
+            </a-animation>
         </a-box>
         <a-box width="8" height="0.15" depth="0.7" position="0 10 0" rotation="10 90 0" color="#545863">
-            <a-animation attribute="rotation" to="0 450 0" repeat="indefinite" dur="5000" easing="linear"></a-animation>
+            <a-animation id="fan2" loop="true" property="rotation" to="0 450 0" repeat="indefinite" dur="5000"
+                easing="linear">
+            </a-animation>
         </a-box>
 
         <!-- Covid -->
@@ -136,9 +140,14 @@
         <!-- Drawer -->
         <a-gltf-model src="#drawer" position="-18 -2 -5" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
 
-        <!-- Button -->
-        <a-box position="-19.5 3 5" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>
-        <a-cylinder id="covidBtn" height="0.15" radius="0.25" color="#00ff00" position="-19.2 3 5" rotation="0 0 90">
+        <!-- Fan Button -->
+        <a-box position="-19.5 5 1" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>
+        <a-cylinder id="fanBtn" height="0.15" radius="0.25" color="#383838" position="-19.2 5 1" rotation="0 0 90">
+        </a-cylinder>
+
+        <!-- Covid Button -->
+        <a-box position="-19.5 5 5" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>
+        <a-cylinder id="covidBtn" height="0.15" radius="0.25" color="#00ff00" position="-19.2 5 5" rotation="0 0 90">
         </a-cylinder>
 
         <!-- Hearth -->
