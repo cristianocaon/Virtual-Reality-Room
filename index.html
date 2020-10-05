@@ -137,8 +137,46 @@
             </a-gltf-model>
         </a-entity>
 
+        <!-- Hearth Fire -->
+        <a-entity id="fire" visible="false">
+            <a-box opacity="0.95" color="#FF0000" width="0.27" depth="0.27" height="0.27" position="-12.5 2 -21">
+                <a-animation attribute="position" from="-12.5 2 -21" to="-12.5 4 -21" repeat="indefinite" dur="2500">
+                </a-animation>
+            </a-box>
+            <a-box opacity="0.95" color="#FF0000" width="0.27" depth="0.27" height="0.27" position="-12.2 2 -21.4">
+                <a-animation attribute="position" from="-12.2 2 -21.4" to="-12.2 4 -21.4" repeat="indefinite"
+                    dur="2000">
+                </a-animation>
+            </a-box>
+            <a-box opacity="0.95" color="#FF0000" width="0.27" depth="0.27" height="0.27" position="-12.4 2 -21.8">
+                <a-animation attribute="position" from="-12.4 2 -21.8" to="-12.4 4 -21.8" repeat="indefinite"
+                    dur="2100">
+                </a-animation>
+            </a-box>
+            <a-box opacity="0.95" color="#FF0000" width="0.27" depth="0.27" height="0.27" position="-11.6 2 -21.6">
+                <a-animation attribute="position" from="-11.6 2 -21.6" to="-11.6 4 -21.6" repeat="indefinite"
+                    dur="1900">
+                </a-animation>
+            </a-box>
+            <a-box opacity="0.95" color="#FF0000" width="0.27" depth="0.27" height="0.27" position="-11.6 2 -22.4">
+                <a-animation attribute="position" from="-11.6 2 -22.4" to="-11.6 4 -22.4" repeat="indefinite"
+                    dur="2500">
+                </a-animation>
+            </a-box>
+            <a-box opacity="0.95" color="#FF0000" width="0.27" depth="0.27" height="0.27" position="-11.6 2 -22">
+                <a-animation attribute="position" from="-11.6 2 -22" to="-11.6 4 -22" repeat="indefinite" dur="1800">
+                </a-animation>
+            </a-box>
+        </a-entity>
+
+
         <!-- Drawer -->
         <a-gltf-model src="#drawer" position="-18 -2 -5" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
+
+        <!-- Hearth Button -->
+        <a-box position="-19.5 5 -14" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>
+        <a-cylinder id="hearthBtn" height="0.15" radius="0.25" color="#FF0000" position="-19.2 5 -14" rotation="0 0 90">
+        </a-cylinder>
 
         <!-- Fan Button -->
         <a-box position="-19.5 5 1" height="0.75" depth="0.75" width="0.5" color="#606060"></a-box>

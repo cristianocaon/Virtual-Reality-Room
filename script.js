@@ -34,3 +34,17 @@ fanBtn.addEventListener('click', function () {
         fan2.setAttribute('to', "0 450 0");
     }
 });
+
+let hearthBtn = document.querySelector('#hearthBtn');
+
+hearthBtn.addEventListener('click', function () {
+    console.log("Hearth button clicked!!!");
+    let fire = document.querySelector('#fire');
+    // console.log(fire.getAttribute('visible'));
+
+    if (fire.getAttribute('visible') == false) {
+        fire.setAttribute('visible', true);
+    } else {
+        fire.setAttribute('visible', false);
+    }
+});
