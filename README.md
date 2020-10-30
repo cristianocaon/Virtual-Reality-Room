@@ -1,5 +1,7 @@
 # Virtual Reality Project 1
 
+Project for Virtual Reality course. The VR environment was fully developed with HTML and JavaScript by implementing the A-Frame library.
+
 ## YouTube Link
 
 https://www.youtube.com/embed/pfe1ZSIuElY
